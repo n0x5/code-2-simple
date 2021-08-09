@@ -49,6 +49,10 @@ div#sidebar {
     clear: both;
 }
 h2{
+		font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -1px;
 	display: block;
     margin-bottom: 3%;
 }
@@ -136,4 +140,12 @@ display: none;
 
 div[id^="gallery-"] .gallery-caption {
     display: none;
+}
+
+.entry {
+	border-bottom: 2px dashed gray;
+}
+
+a{
+	text-decoration: none;
 }
