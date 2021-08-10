@@ -10,7 +10,7 @@
 <?php if (have_posts()) : ?><?php while (have_posts()) : the_post(); ?>
 	
 <div class="entry">
-<h2> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <?php the_time('F jS, Y') ?></h2>
+<h2> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a> <div class="title1"><?php the_time('F jS, Y g:i a') ?></div></h2>
 <?php the_content('-> read more'); ?>
 </div>
 	

@@ -11,7 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 body {
-	background-color: white;
+	background-color: black;
+    color: white;
     margin: 0;
     padding: 0;
     position: relative;
@@ -29,7 +30,7 @@ body {
 div#sidebar {
     display: block;
     text-align: left;
-    font-size: 12px;
+    font-size: 20px;
     width: 200px;
     float: right;
 }
@@ -48,7 +49,7 @@ div#sidebar {
     display: block;
     clear: both;
 }
-h2{
+h2 {
 		font-family: "Courier New", monospace;
     font-weight: bold;
     font-size: 22px;
@@ -130,6 +131,7 @@ margin-bottom: 15px;
 text-align: center;
 font-size: 11px;
 word-wrap: break-word;
+letter-spacing: 1px;
 }
 
 .wp-caption {
@@ -146,6 +148,29 @@ div[id^="gallery-"] .gallery-caption {
 	border-bottom: 2px dashed gray;
 }
 
-a{
+a {
 	text-decoration: none;
+    font-size: 22px;
+  
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+a:hover {
+	color: #b9b9b9;
+}
+.title1{
+	font-size: 12px;
+    background-color: #191919;
+    color: #9a9a9a;
+    letter-spacing: 4px;
+}
+
+#sidebar a {
+    font-size: 30px;
+    color: #c3c3c3;
+    letter-spacing: 0;
+    margin-bottom: 10%;
+}
+li {
+	    margin-bottom: 30%;
 }
